@@ -1,11 +1,11 @@
 {
-  "name": "PWAConf",
-  "short_name": "PWAConf",
+  "name": "GKK SvelteKit 1.0",
+  "short_name": "GKK SvelteKit 1.0",
   "start_url": "/",
   "display": "standalone",
   "theme_color": "#2A3443",
   "background_color": "#2A3443",
-  "description": "A demo app for a fictional conference",
+  "description": "A skeleton sveltekit and tailwind project",
   "orientation": "portrait",
   "icons": [
     {
