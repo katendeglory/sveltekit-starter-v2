@@ -10,15 +10,11 @@
   import { afterNavigate, beforeNavigate } from "$app/navigation";
 
   let loading = true;
+  let root;
 
   onMount(async () => {
     // await loadData().catch((err) => console.log(err));
     // loading = false;
-  });
-
-  let root;
-
-  onMount(() => {
     root = document.getElementsByTagName("html")[0];
     root?.classList.add("scroll-smooth");
   });
